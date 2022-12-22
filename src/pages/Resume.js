@@ -10,7 +10,8 @@ return (
     <a href= {resumePdf} download> 
     <h2>Download</h2>
     </a>
-    <div> <img src= {resumeImg}/> </div>
+    <div>
+        <img src= {resumeImg}/> </div>
     </div> 
 )
 }

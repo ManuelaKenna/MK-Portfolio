@@ -5,10 +5,12 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Testimonial from './pages/Testimonial';
+// import 'src\App.css';
+// import 'src\index.css';
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About');
+  // const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
@@ -29,7 +31,6 @@ function App() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
-
   return (
     <div className='container' style= {{height: '100vh'}}>
 
