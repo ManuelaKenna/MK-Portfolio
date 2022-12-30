@@ -5,12 +5,16 @@ import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Testimonial from './pages/Testimonial';
-// import 'src\App.css';
-// import 'src\index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css';
 
+// const rootStyle = {
+//   backgroundImage: 'url(./assets/background.png)', 
+//   height: '100vh'
+// }
 
 function App() {
-  // const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
@@ -32,12 +36,16 @@ function App() {
 
   const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <div className='container' style= {{height: '100vh'}}>
+    <div className='main' style= {{height: '100vh'}}>
 
     {/* We are passing the currentPage from state and the function to update it */}
     <Header currentPage={currentPage} handlePageChange={handlePageChange} />
     {/* Here we are calling the renderPage method which will return a component  */}
+    <div className = 'container'>
+
+    
     {renderPage()}
+    </div>
   </div>
   );
 }

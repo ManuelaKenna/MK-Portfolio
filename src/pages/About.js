@@ -1,6 +1,11 @@
 import React from "react";
 import Typical from "react-typical";
 import resumePdf from "../assets/downloads/Kenna_Manuela_resume_pdf.pdf";
+import Portfolio from "./Portfolio";
+// import './index.css';
+// import './App.css';
+
+
 
 function About() {
   return (
@@ -34,15 +39,15 @@ function About() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Enthusiastic Developer✌🏼",
+                    "Enthusiastic Developer",
                     1000,
-                    "Full Stack Developer👩🏼‍💻",
+                    "Full Stack Developer",
                     1000,
-                    "Creative Developer🎨",
+                    "Creative Developer",
                     1000,
-                    "MERN Stack Developer🌐",
+                    "MERN Stack Developer",
                     1000,
-                    "React Developer⚙️",
+                    "React Developer",
                     1000,
                   ]}
                 />
@@ -67,6 +72,7 @@ function About() {
           <div className="profile-picture-background"></div>
         </div>
       </div>
+      <Portfolio/>
     </div>
   );
 }
