@@ -1,10 +1,10 @@
 import React from 'react';
-import NavTabs from './NavTabs';
+import NavBar from './NavBar';
 
 function Header({ currentPage, handlePageChange }) {
   return(
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}/>
+      <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
 
     </div>
 
