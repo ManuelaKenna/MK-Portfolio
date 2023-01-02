@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-import BooksCard from '../assets/booksandbreweries.png';
+// import BooksCard from '../assets/booksandbreweries.png';
 
 
 function Portfolio(){
@@ -8,7 +8,7 @@ function Portfolio(){
     {   
         title: 'Project 1',
         id: 1,
-        img: {BooksCard},
+        img: '',
         description:''
     },
     {
