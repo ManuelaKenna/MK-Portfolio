@@ -2,15 +2,13 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBCol,
-  MDBRow,
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
-    <div className="position-absolute bottom-100 start-100 translate-middle">
+    <div className="position-bottom">
     <MDBFooter className='bg-dark text-center text-white'style={{ backgroundColor: '#21081a' }}>
       <MDBContainer className='p-4'>
         <section className='mb-4'>

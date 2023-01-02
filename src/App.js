@@ -8,11 +8,6 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
-// const rootStyle = {
-//   backgroundImage: 'url(./assets/background.jpg)', 
-//   height: '100vh'
-// }
-
 function App() {
 
   const [currentPage, setCurrentPage] = useState('About');
@@ -37,7 +32,7 @@ function App() {
   return (
     <div className='main' style= {{height: '100vh'}}>
     <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-    <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+    {/* <Footer currentPage={currentPage} handlePageChange={handlePageChange} /> */}
  
     <div className = 'container'>
     {renderPage()}

@@ -1,8 +1,7 @@
 import React from 'react';
 import resumeImg from '../assets/images/resume-screenshot.png';
 import resumePdf from '../assets/downloads/Kenna_Manuela_resume_pdf.pdf';
-// import './index.css';
-// import './App.css';
+
 
 function Resume(){
 return (

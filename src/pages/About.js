@@ -66,13 +66,10 @@ function About() {
           </div>
         <Buttons></Buttons>
         </div>
-        {/* <div className="profile-picture">
-          <div className="profile-picture-background"></div>
-        </div> */}
-      </div>
-      <Portfolio/>
+        <Portfolio/>
       <Contact/>
       <Footer/>
+      </div>
     </div>
   );
 }
