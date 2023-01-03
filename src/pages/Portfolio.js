@@ -1,56 +1,55 @@
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
-// import BooksCard from '../assets/booksandbreweries.png';
-
+import { useState } from 'react';
 
 function Portfolio(){
-  const projects = [
+  const [projects] = useState( [
     {   
-        title: 'Project 1',
-        id: 1,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     },
     {
-        title: 'Project 2',
-        id: 2,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     },
     {
-        title: 'Project 3',
-        id: 3,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     },
     {
-        title: 'Project 4',
-        id: 4,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     },
     {
-        title: 'Project 5',
-        id: 5,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     },
     {
-        title: 'Project 6',
-        id: 6,
-        img: '',
-        description:''
+        title: 'bookandbreweries',
+        description:'',
+        link:'',
+        repolink: '',
     }
-  ];
+  ]);
 return (
     <div className = "portfolio-container"> 
         <h2> Recent Work</h2>
         <div>
-            {projects.map(
-               project => (
-                <ProjectCard/>
-               )
-            )};
+            {projects.map((project)=>(
+            <ProjectCard
+            projects={projects}
+            />
+            ))};
         </div>
     </div>
 )
