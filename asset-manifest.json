@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/MK-Portfolio/static/css/main.ae8466c7.css",
+    "main.js": "/MK-Portfolio/static/js/main.ff0f9023.js",
+    "static/js/496.86c53261.chunk.js": "/MK-Portfolio/static/js/496.86c53261.chunk.js",
+    "static/media/background.jpg": "/MK-Portfolio/static/media/background.872b9fe03f775f403443.jpg",
+    "static/media/resume-screenshot.png": "/MK-Portfolio/static/media/resume-screenshot.bc033a0257852e5194ce.png",
+    "static/media/Kenna_Manuela_resume_pdf.pdf": "/MK-Portfolio/static/media/Kenna_Manuela_resume_pdf.b73c6e032370022af93c.pdf",
+    "index.html": "/MK-Portfolio/index.html",
+    "main.ae8466c7.css.map": "/MK-Portfolio/static/css/main.ae8466c7.css.map",
+    "main.ff0f9023.js.map": "/MK-Portfolio/static/js/main.ff0f9023.js.map",
+    "496.86c53261.chunk.js.map": "/MK-Portfolio/static/js/496.86c53261.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae8466c7.css",
+    "static/js/main.ff0f9023.js"
+  ]
+}
